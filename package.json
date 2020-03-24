@@ -2,7 +2,7 @@
   "name": "back-end-be-the-hero",
   "version": "1.0.0",
   "description": "Projeto desenvolvido durante a semana OmniStack 11 da rocketseat",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "sqlite3": "^4.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
